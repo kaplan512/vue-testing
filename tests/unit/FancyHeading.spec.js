@@ -24,6 +24,6 @@ describe('FancyHeading.vue', () => {
         const headingData = mountComponentWithProps(FancyHeading, { title: 'Hello, Vue!' });
         const titleData = headingData.textContent;
 
-        expect(titleData).toEqual('Hello, Vue!');
+        expect(titleData).toEqual(`Hello, Vue! test`);
     });
 });

@@ -1,5 +1,8 @@
 <template>
-    <h1 :style="headingStyles">{{title}}</h1>
+    <div>
+        <span :style="headingStyles">{{title}}</span>
+        <span>test</span>
+    </div>
 </template>
 
 <script>
